@@ -1,0 +1,15 @@
+{
+  "name": "hangwoman",
+  "version": "1.0.0",
+  "description": "Guess the words!",
+  "main": "index.js",
+  "author": "Tommy",
+  "license": "MIT",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  
+  "devDependencies": {
+    "vercel": "^19.1.1"
+  }
+}
