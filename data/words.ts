@@ -1,13 +1,12 @@
 
+// Struct in TypeScript
 type Word = {
   word: string,
   id: string,
   letterCount: string
 }
 
-
-
-
+// Array of Word and export keyword is equivalent to the module.exports in Node
 export const words: Word[] = [
   { word: "bacon", id: "123", letterCount: "5" },
   { word: "noodles", id: "124", letterCount: "7" },

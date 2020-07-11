@@ -2,18 +2,73 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hangwoman</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="fireworks.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
     <style>
     </style>
 </head>
 
 <body>
-    <div class="content">
-        <h1 id="hangwoman-title">Let's guess the words!</h1>
-        <h3 id="answer"></h3>
-        <h3 id="guess"></h3>
+    <nav class="nav">
+        <a href="#" target="_blank">How to play</a>
+        <a href="#" target="_blank">Makeup</a>
+        <a href="https://github.com/tomtomplusplus" target="_blank">GitHub</a>
+        <a href="#" target="_blank">About me </a>
+    </nav>
+
+    <div class="pyro">
+        <div id="before"></div>
+        <div id="after"></div>
     </div>
+
+    <div class="content">
+        <h1 id="hangwoman-title">Let's guess the word!</h1>
+        <h3 id="answer"></h3>
+
+        <h3 id="guesses-title">Guesses:</h2>
+            <h3 id="guesses"></h3>
+    </div>
+    <div id="newgame-content">
+        <button id="play-again">Play Again</button>
+    </div>
+    <div id="winner">
+        <h1 id="youWin">You win! Enjoy this picture!</h1>
+        <img id="hana" src="./assets/hana.jpg" alt="Winning picture">
+    </div>
+
+    <footer class="footer">
+        <div id="footer-button"></div>
+        <div id="footer-container">
+            <div id="border-container">
+                <h2 id="about-title">About</h2>
+                <div id="text-justify">
+                    My name is Tommy and I am happy student in Computer Science Technology. I created this website using
+                    to
+                    showcase
+                    my learning and I hope you that by playing this little game of Hangwoman (similar to Hangman, not
+                    being
+                    a misogynist),
+                    you get to know me a bit. Please do visit my GitHub link to review my code.
+                </div>
+            </div>
+
+            <div id="social-media">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
+
 </body>
 
 </html>
